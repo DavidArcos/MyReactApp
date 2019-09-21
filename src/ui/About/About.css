@@ -1,0 +1,23 @@
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    justify-content: left;
+    box-shadow: 5px 5px 3px grey;
+}
+
+.title{
+    padding: 2%;
+    background: #6bc5d2;
+    color: white;
+}
+
+.content{
+    padding: 2%;
+    background: #105e62;
+    color: white;
+}
+
+.list-about{
+    list-style: none;
+}

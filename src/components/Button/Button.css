@@ -1,0 +1,22 @@
+.btn{
+    background-color: rgb(123, 152, 181,0.805);
+    color: white;
+    font-weight: 700;
+    border: 1px solid #dddddd;
+    border-radius: 1rem;
+    width: 150px;
+    height: 50px;
+}
+.btn:hover{
+    background-color: rgb(123, 152, 181);
+}
+
+.toggle-btn{
+    background-color: yellow;
+    color: black;
+    font-weight: 700;
+    border: 1px solid #dddddd;
+    border-radius: 1rem;
+    width: 100px;
+    height: 50px;
+}

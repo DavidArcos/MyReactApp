@@ -1,0 +1,11 @@
+.input{
+    border-radius: 5px;
+    color: black;
+    min-width: 1rem;
+    margin: 5px;
+}
+
+.input:focus {
+    border: 1px solid rgb(111, 111, 218);
+    outline: red;
+}

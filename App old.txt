@@ -1,0 +1,48 @@
+import React, { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
+// import Person from './Person';
+// import Users from './ui/Users/Users';
+import UsersFunctional from "./ui/Users/UsersFunctional";
+import Home from ".ui/Home/Home";
+import Button from "./components/Button/Button";
+
+const App = () => {
+  const [ showImg, setShowImg ] = useState(false);
+  return (
+    <div className="App">
+      <header className="App-header">
+        { showImg && 
+          <img src={logo} className="App-logo" alt="logo" />
+        }
+        <Button className="toggle-btn" text="Toggle" onClick={() => setShowImg(!showImg)} ></Button>
+        <p>
+          Edit <code>src/App.js</code> and save to reload. By Arcos
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+        <UsersFunctional/>
+        {/* {
+          arreglo.map((person, i) =>{
+            const {name, age} = person;
+            return (
+              <Person
+              key={i}
+              name={name}
+              age={age}
+              />
+            )
+          })
+        } */}
+      </header>
+    </div>
+  );
+}
+
+export default App;
